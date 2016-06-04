@@ -48,3 +48,7 @@ git pull reflections master		#pull master branch of the reflections remote
 
 git clone https://github.com/SubhankarGhosh/recipes.git 	#clones the remote(from the url) into a folder auto-created by git with the name of the remote
 
+git pull origin master = git fetch origin	+	git merge master origin/master
+
+`git pull origin master` fetches commits from the master branch of the origin remote (into the local origin/master branch), and then it merges origin/master into the branch you currently have checked out.
+
