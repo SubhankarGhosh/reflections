@@ -1,0 +1,50 @@
+git init
+
+git status
+
+git add *
+
+git commit -m "Add both the reflection files."
+
+git log
+
+git branch easy-mode
+git checkout easy-mode
+git checkout -b easy-mode
+
+subl game.js
+
+git add game.js
+
+git log --graph --oneline master coins
+
+git branch
+
+git merge master coins
+
+git diff master coins
+
+git reset --hard
+
+git show ca2ce6839f595e5d0dddae6cfc332cde1d4b6eca	#shows changes made by this commit thus differentiating it from its parent, hence no need to use diff wid parent.
+
+git branch -d coins	#delete the label for a branch
+
+git merge master	#merge current branch with master
+
+git log -n1	#shows only the last commit in the history
+
+git add *	#add all files from the current directory and sub-directories to the staging area
+
+git remote add reflections https://github.com/SubhankarGhosh/reflections.github		#add a remote repository from the link to your local and set it's name as reflections
+
+git remote	#shows list of remotes
+
+git remote -v	#shows list of remotes verbose(shows remote and url to it)
+
+git push reflections master		#push master branch to the reflections remote
+
+git pull reflections master		#pull master branch of the reflections remote
+
+git clone https://github.com/SubhankarGhosh/recipes.git 	#clones the remote(from the url) into a folder auto-created by git with the name of the remote
+
