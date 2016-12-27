@@ -36,7 +36,7 @@ git log -n1	#shows only the last commit in the history
 
 git add *	#add all files from the current directory and sub-directories to the staging area
 
-git remote add reflections https://github.com/SubhankarGhosh/reflections.github		#add a remote repository from the link to your local and set it's name as reflections
+git remote add origin https://github.com/SubhankarGhosh/reflections.github		#add a remote repository from the link to your local and set it's name as reflections
 
 git remote	#shows list of remotes
 
