@@ -57,3 +57,6 @@ rm -rf .git 	#revert git init
 
 git config --global user.name "SubhankarGhosh"
 
+sudo ln -s /opt/sublime_text/sublime_text /usr/bin/subl
+
+hash -r
