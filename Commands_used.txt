@@ -54,6 +54,7 @@ git pull origin master = git fetch origin	+	git merge master origin/master
 
 rm -rf .git 	#revert git init
 
+git config --global user.name "SubhankarGhosh"
 
 git config --global user.name "SubhankarGhosh"
 
