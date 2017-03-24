@@ -56,7 +56,7 @@ rm -rf .git 	#revert git init
 
 git config --global user.name "SubhankarGhosh"
 
-git config --global user.email microlifecc@gmail.com
+git config --global user.email "microlifecc@gmail.com"
 
 sudo ln -s /opt/sublime_text/sublime_text /usr/bin/subl
 
