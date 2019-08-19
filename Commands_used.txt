@@ -61,3 +61,6 @@ git config --global user.email "microlifecc@gmail.com"
 sudo ln -s /opt/sublime_text/sublime_text /usr/bin/subl
 
 hash -r
+
+
+https://stackoverflow.com/questions/2925884/managing-git-file-size?noredirect=1&lq=1
