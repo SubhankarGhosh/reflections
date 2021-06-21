@@ -1,0 +1,15 @@
+**/data
+
+**/Data
+
+**/*.fuse*
+
+**/*.ipynb_checkpoints*
+
+**/*.git*
+
+**/*.ipynb_checkpoints*
+
+**/*.idea*
+
+**/*.gitignore*
