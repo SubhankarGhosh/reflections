@@ -64,3 +64,5 @@ hash -r
 
 
 https://stackoverflow.com/questions/2925884/managing-git-file-size?noredirect=1&lq=1
+
+https://www.codeblocq.com/2016/01/Untrack-files-already-added-to-git-repository-based-on-gitignore/
